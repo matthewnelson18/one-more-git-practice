@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/karinchung/one-more-git-practice/issues"
   },
-  "homepage": "https://github.com/karinchung/one-more-git-practice#readme"
+  "homepage": "https://github.com/karinchung/one-more-git-practice#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
 }
