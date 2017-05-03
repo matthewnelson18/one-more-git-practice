@@ -13,6 +13,8 @@ app.get('/comics', function(req, res){
   message = "All of my comics: \n"
   message = message + myComics
   res.send(message)
+app.get('/comics', function(req, res) {
+  res.send('comics are fun to read')
 })
 
 app.listen(PORT, function(){
