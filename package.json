@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/karinchung/one-more-git-practice#readme",
   "dependencies": {
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "s": "^0.1.1"
   }
 }

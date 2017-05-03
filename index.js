@@ -13,8 +13,12 @@ app.get('/comics', function(req, res){
   message = "All of my comics: \n"
   message = message + myComics
   res.send(message)
-app.get('/comics', function(req, res) {
-  res.send('comics are fun to read')
+})
+
+app.get('/comics/:name', function(req, res){
+  console.log("I'll show you the comic", req.params)
+  var ind = myComics.indexOf(req.params.name)
+  res.send(myComics[ind])
 })
 
 app.listen(PORT, function(){
